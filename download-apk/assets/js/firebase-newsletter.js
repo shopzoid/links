@@ -1,13 +1,13 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
-  apiKey: "AIzaSyAsGWZNuUvCZTzb6UwTRb7BfT3sbrJuTQg",
-  authDomain: "mexa-aplikasi.firebaseapp.com",
-  databaseURL: "https://mexa-aplikasi-default-rtdb.firebaseio.com",
-  projectId: "mexa-aplikasi",
-  storageBucket: "mexa-aplikasi.appspot.com",
-  messagingSenderId: "337510082503",
-  appId: "1:337510082503:web:79436729e844f9d6a75be2",
-  measurementId: "G-ZRH82E69VR"
+  apiKey: "AIzaSyDTBMoiWOrQnU8PImOAbtVSR8FcF8ChpfI",
+  authDomain: "shopzoid-daftar.firebaseapp.com",
+  databaseURL: "https://shopzoid-daftar-default-rtdb.firebaseio.com",
+  projectId: "shopzoid-daftar",
+  storageBucket: "shopzoid-daftar.appspot.com",
+  messagingSenderId: "881147393125",
+  appId: "1:881147393125:web:5e03ec46dd578c8a00c28c",
+  measurementId: "G-H19Q4CSSGL"
 };
 firebase.initializeApp(config);
 
