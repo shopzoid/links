@@ -20,7 +20,7 @@ var config = {
   // Submit form
   function submitForm(e) {
     e.preventDefault();
-    setTimeout(function(){window.location.href = "https://mexaid.github.io" ;}, 3000);
+    setTimeout(function(){window.location.href = "terkirim.html" ;}, 3000);
   
     // Get values
     var name = getInputVal('name');
