@@ -54,16 +54,15 @@
                            <li><a href=""><i class="las la-house-damage"></i>Home Page</a></li>
                         </ul>
                      </li>
-                     <!--TUTUP--
+                     <!--TUTUP-->
                      <li>
-                        <a href="#admin" class="iq-waves-effect" data-toggle="collapse" aria-expanded="false"><span class="ripple rippleEffect"></span><i class="ri-admin-line"></i><span>Admin</span><i class="ri-arrow-right-s-line iq-arrow-right"></i></a>
+                        <a href="#admin" class="iq-waves-effect" data-toggle="collapse" aria-expanded="false"><span class="ripple rippleEffect"></span><i class="ri-discuss-line"></i><span>Customer Service</span><i class="ri-arrow-right-s-line iq-arrow-right"></i></a>
                         <ul id="admin" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
-                           <li><a href="admin-dashboard.html"><i class="ri-dashboard-line"></i>Dashboard</a></li>
-                           <li><a href="admin-category.html"><i class="ri-list-check-2"></i>Category Lists</a></li>
-                           <li><a href="admin-author.html"><i class="ri-file-user-line"></i>Author</a></li>
-                           <li><a href="admin-books.html"><i class="ri-book-2-line"></i>Books</a></li>
+                           <li><a href=""><i class="ri-customer-service-2-line"></i>Customer Care</a></li>
+                           <li><a href=""><i class="ri-mail-send-line"></i>Email</a></li>
                         </ul>
                      </li>
+                     <!--TUTUP--
                      <li>
                         <a href="#userinfo" class="iq-waves-effect" data-toggle="collapse" aria-expanded="false"><span class="ripple rippleEffect"></span><i class="las la-user-tie iq-arrow-left"></i><span>User</span><i class="ri-arrow-right-s-line iq-arrow-right"></i></a>
                         <ul id="userinfo" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle" style="">
@@ -551,6 +550,7 @@
    
    <form id="contactForm" class="form">
      <div class="input-group">
+       <!--Nama-->
        <label for="username" class="label">Apa Nama TokoMu?</label>
        <input id="name" name="name"  placeholder="Nama" type="text" class="input" required>
        <span class="error-message"></span>
@@ -562,10 +562,40 @@
          <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
        </svg>
      </div>
-     
+
+     <!--Email-->
      <div class="input-group">
-       <label for="Instagram" class="label">Instagram</label>
-      <input id="Instagram" name="Instagram"  placeholder="Nama Akun Instagram Tokomu" type="text" class="input" required>
+     <label for="email" class="label">Email Pribadi</label>
+     <input id="email" name="email"  placeholder="Your Email" type="email" class="input" required>
+     <span class="error-message"></span>
+     <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+     </svg>
+
+     <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+       <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+     </svg>
+     </div>
+
+     <!--Phone-->
+     <div class="input-group">
+      <label for="phone" class="label">Nomor Telepon</label>
+      <input id="phone" name="phone"  placeholder="Nomor Telepon" type="number" class="input" required>
+      <span class="error-message"></span>
+      <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+      </svg>
+ 
+      <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+      </svg>
+      </div>
+     
+      <!--Instagram-->
+      <div class="input-group">
+     <div class="input-group">
+       <label for="instagram" class="label">Instagram</label>
+      <input id="instagram" name="instagram"  placeholder="Nama Akun Instagram Tokomu" type="text" class="input" required>
        <span class="error-message"></span>
        <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -574,7 +604,7 @@
        <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
          <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
        </svg>
-     </div>
+       </div>
 
  <!-- lompakai-->
  <button type="submit" class="button">Selanjutnya</button>
@@ -675,9 +705,9 @@
       <!-- am charts JavaScript -->
       <script src="../assets/js/charts.js"></script>
       <!-- am animated JavaScript -->
-      <script src="../assets/js/animated.js"></script>
+      <script src="../asset/js/animated.js"></script>
       <!-- am kelly JavaScript -->
-      <script src="../assets/js/kelly.js"></script>
+      <script src="../assets-/js/kelly.js"></script>
       <!-- am maps JavaScript -->
       <script src="../assets/js/maps.js"></script>
       <!-- am worldLow JavaScript -->

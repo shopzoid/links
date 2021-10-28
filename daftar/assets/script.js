@@ -87,7 +87,7 @@ class FormValidator {
 
 
 const form = document.querySelector('.form');
-const fields = ["name", "Instagram", "password", "password_confirmation"];
+const fields = ["name", "email", "phone", "instagram"];
 
 const validator = new FormValidator(form, fields);
 validator.initialize();
