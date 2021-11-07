@@ -1,13 +1,13 @@
 // Your web app's Firebase configuration (ENTER YOUR FIREBASE CONFIGURATION DETAILS)
 var firebaseConfig = {
     apiKey: "AIzaSyA6in5d89RIbzA0DzHvjxREC4fBPh_8Ngw",
-  authDomain: "shopzoid-id.firebaseapp.com",
-  databaseURL: "https://shopzoid-id-default-rtdb.firebaseio.com",
-  projectId: "shopzoid-id",
-  storageBucket: "shopzoid-id.appspot.com",
-  messagingSenderId: "839294207212",
-  appId: "1:839294207212:web:d59868050d01bc8e6791c9",
-  measurementId: "G-M8FEBWLE57",
+    authDomain: "shopzoid-id.firebaseapp.com",
+    databaseURL: "https://shopzoid-id-default-rtdb.firebaseio.com",
+    projectId: "shopzoid-id",
+    storageBucket: "shopzoid-id.appspot.com",
+    messagingSenderId: "839294207212",
+    appId: "1:839294207212:web:d59868050d01bc8e6791c9",
+    measurementId: "G-M8FEBWLE57",
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);

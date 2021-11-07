@@ -1,13 +1,13 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
-    apiKey: "AIzaSyDTBMoiWOrQnU8PImOAbtVSR8FcF8ChpfI",
-  authDomain: "shopzoid-daftar.firebaseapp.com",
-  databaseURL: "https://shopzoid-daftar-default-rtdb.firebaseio.com",
-  projectId: "shopzoid-daftar",
-  storageBucket: "shopzoid-daftar.appspot.com",
-  messagingSenderId: "881147393125",
-  appId: "1:881147393125:web:5e03ec46dd578c8a00c28c",
-  measurementId: "G-H19Q4CSSGL"
+  apiKey: "AIzaSyA6in5d89RIbzA0DzHvjxREC4fBPh_8Ngw",
+  authDomain: "shopzoid-id.firebaseapp.com",
+  databaseURL: "https://shopzoid-id-default-rtdb.firebaseio.com",
+  projectId: "shopzoid-id",
+  storageBucket: "shopzoid-id.appspot.com",
+  messagingSenderId: "839294207212",
+  appId: "1:839294207212:web:d59868050d01bc8e6791c9",
+  measurementId: "G-M8FEBWLE57"
   };
   firebase.initializeApp(config);
   
